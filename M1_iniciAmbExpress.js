@@ -20,7 +20,7 @@ app.get('/salutacio', function (req, res) {
   res.send('Hola Món!');
 });
 
-app.listen(3000, function () {
+app.listen(1337, function () {
   console.log('Servidor escoltant port 3000');
 })
 
